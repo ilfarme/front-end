@@ -1,0 +1,232 @@
+/* --- Cекции ---- */
+#first {
+  background: url('../img/first-bg.png') no-repeat center top;
+  height: 100vh;
+  padding-top: 60px;
+  color: #fff;
+}
+
+#about-me {
+  padding-top: 85px;
+  padding-bottom: 15px;
+}
+
+#about-me h3 {
+  padding-bottom: 75px;
+}
+
+#about-me h4 {
+  padding-bottom: 50px;
+}
+
+#skills {
+  padding-top: 100px;
+}
+
+#skills h3 {
+  padding-bottom: 60px;
+}
+
+#works {
+  padding-bottom: 120px;
+}
+
+#works h3 {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+/* Блоки и  позиционирование */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Блок логотипа */
+.logo {
+  float: left;
+  font-size: 17px;
+}
+
+.logo__text-light {
+  font-weight: 100;
+}
+
+.logo__text-bold {
+  font-weight: 900;
+}
+
+/* Блок эл.почты */
+.email {
+  float: right;
+  font-size: 13px;
+}
+
+/* Блок "Меню" */
+nav {
+  display: inline-block;
+  margin-left: 23%;
+}
+
+.menu {
+  width: 300px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  display: inline;
+  padding: 0 5%;
+}
+
+/* Cтрелка пролистывания вниз */
+.arrow-down {
+  display: block;
+  margin: 0 auto;
+  margin-top: 18%;
+}
+
+/* Блок "Бэкграунд" */
+.background {
+  width: 410px;
+  float: left;
+}
+
+/* Блок "Заслуги" */
+.merit {
+  width: 460px;
+  float: right;
+  padding-bottom: 65px;
+}
+
+.merit__item {
+  width: 150px;
+  float: left;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.merit__number {
+  width: 103px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  background: url('../img/rhombus.png') no-repeat;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Блок "Контакты" */
+.contact {
+  width: 460px;
+  float: right;
+}
+
+.contact__list {
+  display: block;
+  float: left;
+  line-height: 1.8em;
+  padding-right: 10%;
+}
+
+/* Блок "Мини-профиль" */
+.mini-profile {
+  display: block;
+  float: left;
+}
+
+.mini-profile img {
+  display: block;
+  float: left;
+  padding-top: 8px;
+}
+
+.mini-profile__desc {
+  display: block;
+  float: left;
+  padding-top: 28px;
+  padding-left: 20px;
+}
+
+/* Блок "Навыки" */
+.skills__item {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  padding-right: 50px;
+  color: #22241b;
+}
+
+.skills__num {
+  float: left;
+  width: 61px;
+  height: 61px;
+  background: url('../img/skills__item.png') no-repeat;
+  text-align: center;
+  line-height: 61px;
+  font-size: 13px;
+}
+
+.skills__name {
+  display: block;
+  float: left;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+/* Блок "Работы" */
+.works__item {
+  display: block;
+  float: left;
+  position: relative;
+  margin: 0 10px;
+}
+
+.works__item:nth-child(1) {
+  margin-left: 0;
+}
+
+.works__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.works__item:hover .overlay {
+  opacity: 1;
+}
+
+.works__name {
+  display: block;
+  margin-top: 45%;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.works__link {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #fff;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 299px;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0px;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+
+/* Подвал сайта */
+footer {
+  margin-bottom: 110px;
+  font-size: 11px;
+  color: #22241b;
+}
+
+.credits {
+  display: inline;
+}
