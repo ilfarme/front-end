@@ -1,0 +1,130 @@
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:960px) {
+  .container {
+    width: 90%;
+  }
+  .background {
+    width: 40%;
+  }
+  .right-block {
+    width: 55%;
+  }
+  .merit__item {
+    margin-left: 20px;
+  }
+  .merit__item:nth-child(1) {
+    margin-left: 0px;
+  }
+  .works__item {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:830px) {
+  .contact .block {
+    flex-direction: column;
+  }
+  .contact__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mini-profile {
+    padding-top: 20px;
+    padding-left: 20%;
+  }
+}
+
+@media screen and (max-width:728px) {
+  .background {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  .right-block {
+    width: 100%;
+  }
+  .merit__list {
+    justify-content: space-around;
+  }
+  .contact, .block {
+    width: 100%;
+  }
+  .contact__list {
+    padding-right: 0;
+    justify-content: space-around;
+  }
+  .mini-profile {
+    padding-left: 0;
+    align-self: center;
+  }
+  .skills__list {
+  justify-content: center;
+  }
+  .skills__item:nth-child(4) {
+    display: none;
+  }
+  .works__item {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #first .block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+  .email {
+    display: none;
+  }
+  .skills__list {
+    flex-wrap: wrap;
+    justify-content: baseline;
+  }
+
+  .skills__item {
+    margin-left: 30%;
+    padding: 20px 0;
+  }
+
+  .works__list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .works__item {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .credits {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .contact__list {
+    flex-direction: column;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width:460px) {
+  .merit__list {
+    flex-wrap: wrap;
+  }
+  .merit__item {
+    padding: 30px 0;
+  }
+}
+}
