@@ -117,7 +117,7 @@ h6 {
 /* MAIN STYLES */
 
 #hero {
-	background: url('../img/hero.png') no-repeat center center fixed;
+	background: url('../img/hero.png') no-repeat center top fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
