@@ -38,6 +38,12 @@
 } 
 
 @media all and (max-width: 768px) {
+	#hero {
+		height: 800px;
+	}
+	.hero-headings {
+		height: 500px;
+	}
 	.menu {
 		text-align: center;
 	}
@@ -46,14 +52,11 @@
 	}
 
 	.social {
-		padding-top: 1.7em;
+		padding-top: 1.3em;
 	}
 	.logo {
 		display: flex;
 		justify-content: center;
-	}
-	.social {
-		display: none;
 	}
 	.portfolio {
 		padding-top: 0;
@@ -70,6 +73,12 @@
 	.advantages__item {
 		width: 100%;
 		padding-bottom: 2em;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.social {
+		display: none;
 	}
 } 
 
@@ -93,15 +102,6 @@
 	h5 {
 		font-size: 1em;
 	}
-}
-
-@media all and (max-width: 470px) {
-	.members__list {
-		flex-wrap: wrap;
-	}
-}
-
-@media all and (max-width: 400px) {
 	.content__border-top {
 		justify-content: center;
 		flex-wrap: wrap;
@@ -116,8 +116,48 @@
 	}
 }
 
+@media all and (max-width: 470px) {
+	.members__list {
+		flex-wrap: wrap;
+	}
+}
+
+@media all and (max-width: 400px) {
+}
+
 @media all and (max-width: 349px) {
 	.menu__item:nth-child(1) {
 		display: none;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.75em;
+	}
+	h4 {
+		font-size: 1.5em;
+	}
+	h5 {
+		font-size: 1em;
+	}
+	.read-more-btn {
+		font-size: 0.8em;
+	}
+	.h1__desc {
+		padding-bottom: 1em;
+	}
+	.hero-headings {
+		height: 70vh;
+	}
+	.members__item {
+		width: 70%;
+		padding-bottom: 2em;
+	}
+	#team {
+		padding-bottom: 3em;
 	}
 }
