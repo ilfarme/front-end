@@ -1,0 +1,123 @@
+@media all and (max-width: 991px) {
+	.members__item {
+		width: 30%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.member__info {
+		text-align: center;
+		padding: 0.5em 0 0 0;
+	}
+	.portfolio {
+		padding-top: 3em;
+	}
+	.menu {
+		padding-top: 1.55em;
+	}
+	.social {
+		padding-top: 1.15em;
+	}
+	.advantages__desc {
+		margin-bottom: 0.5em;
+	}
+	.portfolio__desc {
+		margin-bottom: 0.2em;
+	}
+	.credits {
+		padding-top: 1.4em;
+	}
+	#advantages {
+		padding-bottom: 3em;
+	}
+	footer .social {
+		display: block;
+	}
+	.advantages__item {
+		width: 35%;
+	}
+} 
+
+@media all and (max-width: 768px) {
+	.menu {
+		text-align: center;
+	}
+	.menu__item {
+		margin-right: 1em;
+	}
+
+	.social {
+		padding-top: 1.7em;
+	}
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+	.social {
+		display: none;
+	}
+	.portfolio {
+		padding-top: 0;
+	}
+	.advantages__item:nth-child(3) {
+	margin-right: 2em;
+	}
+	.credits {
+		padding-top: 1.9em;
+	}
+	.advantages__list {
+		flex-wrap: wrap;
+	}
+	.advantages__item {
+		width: 100%;
+		padding-bottom: 2em;
+	}
+} 
+
+@media all and (max-width: 576px) {
+	.credits {
+		font-size: 0.8em;
+		padding-top: 2.3em;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.75em;
+	}
+	h4 {
+		font-size: 1.5em;
+	}
+	h5 {
+		font-size: 1em;
+	}
+}
+
+@media all and (max-width: 470px) {
+	.members__list {
+		flex-wrap: wrap;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.content__border-top {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.credits {
+		width: 100%;
+		padding-top: 0;
+		text-align: center;
+	}
+	.social {
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 349px) {
+	.menu__item:nth-child(1) {
+		display: none;
+	}
+}
