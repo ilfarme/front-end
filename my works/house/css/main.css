@@ -96,8 +96,13 @@ h2 {
 	padding: 8px 10px;
 }
 
+.call-us__btn_light {
+	border: 1px solid #fff;
+}
+
 #hero {
 	background: url(../img/hero.png) center top;
+	background-size: cover;
 	height: 627px;
 }
 
@@ -231,9 +236,10 @@ input {
 }
 
 #deadline {
-	background: url(../img/deadline-bg.png) no-repeat;
-	height: 195px;
-	padding-top: 40px;
+	background: url(../img/deadline-bg.png) repeat-x center top;
+	background-size: cover;
+	height: 200px;
+	padding: 40px;
 	text-align: center;
 	color: #fff;
 }
@@ -265,6 +271,7 @@ input {
 
 .site__list {
 	display: flex;
+	justify-content: center;
 	padding-bottom: 110px;
 }
 
@@ -285,8 +292,9 @@ input {
 
 #infrastructure {
 	background: url(../img/infrastructure-bg.png) no-repeat center top;
+	background-size: cover;
 	padding-top: 75px;
-	height: 700px;
+	height: 540px;
 }
 
 .infrastructure__block {
@@ -314,4 +322,177 @@ input {
 .infrastructure__item {
 	background: url(../img/infrastructure-item-bg.png) no-repeat center bottom;
 	padding: 10px 0 5px 3px;
+}
+
+/*
+ * КОСТЫЛЬ №1 
+ * Удалить в случае, если заголовок будет формироваться динамически
+ */
+.infrastructure__name_left {
+	margin-left: -45px;
+}
+
+#main-advantages {
+	background: url(../img/main-advantages-bg.png) repeat-x center top;
+	background-size: cover;
+	font-size: 17px;
+	margin-top: -10px; /* необходимо, чтобы волны легли на фон предыдущей секции */
+	padding: 25px 0;
+}
+
+.main-advantages__list {
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-advantages__item {
+	padding: 5px 0 15px 75px;
+}
+
+.main-advantages__item:nth-child(1) {
+	background: url(../img/hourglass.png) no-repeat left top;
+}
+
+.main-advantages__item:nth-child(2) {
+	background: url(../img/school.png) no-repeat left top;
+}
+
+.main-advantages__item:nth-child(3) {
+	background: url(../img/tree.png) no-repeat left top;
+}
+
+.main-advantages__bold {
+	display: block;
+	font-weight: 700;
+}
+
+.main-advantages__light {
+	font-weight: 100;
+}
+
+#design {
+	padding: 80px 0 70px 0;
+}
+
+.design__list {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.design__item {
+	text-align: center;
+}
+
+.design__desc {
+	font-size: 15px;
+	font-weight: 100;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: left;
+	width: 300px;
+}
+
+.design__heading {
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#configuration {
+	background: url(../img/configuration-bg.png);
+	color: #fff;
+	padding: 70px 0;
+}
+
+.configuration__where {
+	display: block;
+	font-size: 19px;
+	font-weight: 700;
+	margin: 75px 0 30px 0;
+}
+
+.configuration__block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.configuration__item {
+	font-weight: 100;
+	background: url(../img/tick.png) no-repeat left 50%;
+	padding-left: 23px;
+	margin: 7px 0;
+	font-size: 16px;
+}
+
+.configuration__item:after {
+	background-color: #48a748;
+	content: '';
+	display: block;
+	height: 1px;
+	margin-top: 5px;
+	width: 300px;
+}
+
+#papers {
+	background: url(../img/documentation-bg.png) no-repeat center top;
+	background-size: cover;
+	padding: 75px 0 60px 0;
+}
+
+.documentation__desc {
+	display: block;
+	font-size: 21px;
+	font-weight: 100;
+	padding: 15px 0 45px 0;
+	text-align: center;
+}
+
+.documentation__list {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer {
+	background: #000;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.credits, .privacy {
+	font-size: 13px;
+	font-weight: 100;
+	line-height: 0.5em;
+}
+
+.credits {
+	padding-top: 28px;
+}
+
+.privacy {
+	text-decoration: underline;
+}
+
+.address {
+	background: url(../img/location.png) no-repeat left 8%;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.address__bold {
+	font-weight: 700;
+	line-height: 1.8em;
+}
+
+.adress__light {
+	font-weight: 100;
+	width: 275px;
+}
+
+.call-us_footer {
+	padding-top: 10px;
+	/* PIXEL PERFECT */
 }

@@ -188,7 +188,7 @@
 			<ul class="infrastructure__block">
 				<li>
 					<!-- Список социальных объектов -->
-					<span class="infrastructure__name">
+					<span class="infrastructure__name infrastructure__name_left">
 						Список социальных объектов
 					</span>
 					<ul class="infrastructure__list">
@@ -230,26 +230,36 @@
 
 	<section id="main-advantages">
 		<div class="container">
-			<ul class="main-advantages__list">
-				<li class="main-advantages__item">
-					<span class="main-advantages__bold">
-						До центра 5 минут на машине	
-					</span>
-					или общ. транспорте
-				</li>
-				<li class="main-advantages__item">
-					<span class="main-advantages__bold">
-						3 школы и детский садик
-					</span>
-					в шаговой доступности
-				</li>
-				<li class="main-advantages__item">
-					<span class="main-advantages__bold">
-						Вся необходимая инфраструктура
-					</span>
-					продумана и обеспечена
-				</li>
-			</ul>
+			<div class="row">
+				<div class="col">
+					<ul class="main-advantages__list">
+						<li class="main-advantages__item">
+							<span class="main-advantages__bold">
+								До центра 5 минут на машине	
+							</span>
+							<span class="main-advantages__light">
+								или общ. транспорте
+							</span>
+						</li>
+						<li class="main-advantages__item">
+							<span class="main-advantages__bold">
+								3 школы и детский садик
+							</span>
+							<span class="main-advantages__light">
+								в шаговой доступности
+							</span>
+						</li>
+						<li class="main-advantages__item">
+							<span class="main-advantages__bold">
+								Вся необходимая инфраструктура
+							</span>
+							<span class="main-advantages__light">
+								продумана и обеспечена
+							</span>
+						</li>
+					</ul>	
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -261,6 +271,7 @@
 					<span class="design__heading">
 						Заголовок про стену
 					</span>
+					<img src="img/brickwall.png" alt="Кирпичная стена">
 					<div class="design__desc">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
 					</div>
@@ -269,6 +280,7 @@
 					<span class="design__heading">
 						Заголовок про кровлю
 					</span>
+					<img src="img/roofrepair.png" alt="Кирпичная стена">
 					<div class="design__desc">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make  
 					</div>
@@ -277,6 +289,7 @@
 					<span class="design__heading">
 						Заголовок про канализацию
 					</span>
+					<img src="img/sewerage.png" alt="Кирпичная стена">
 					<div class="design__desc">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
 					</div>
@@ -292,25 +305,31 @@
 				В каждой квартире
 			</span>
 			<ul class="configuration__block">
-				<li class="configuration__list">
-					<ul class="configuration__item">Газовый котёл: Название</ul>
-					<ul class="configuration__item">Ванна: Металлическая</ul>
-					<ul class="configuration__item">Умывальник: Керамический</ul>
-					<ul class="configuration__item">Унитаз: Керамический</ul>
-					<ul class="configuration__item">Газовая плита: Четырёхконфорочная</ul>
+				<li>
+					<ul class="configuration__list">
+						<li class="configuration__item">Газовый котёл: Название</li>
+						<li class="configuration__item">Ванна: Металлическая</li>
+						<li class="configuration__item">Умывальник: Керамический</li>
+						<li class="configuration__item">Унитаз: Керамический</li>
+						<li class="configuration__item">Газовая плита: Четырёхконфорочная</li>
+					</ul>
 				</li>
-				<li class="configuration__list">
-					<ul class="configuration__item">Балкон: Застеклённый</ul>
-					<ul class="configuration__item">Отделка пола: Линолиум</ul>
-					<ul class="configuration__item">Отделка пола в с/у: Плитка</ul>
-					<ul class="configuration__item">Отделка стен: Водоэмульсионная краска</ul>
+				<li>
+					<ul class="configuration__list">
+						<li class="configuration__item">Балкон: Застеклённый</li>
+						<li class="configuration__item">Отделка пола: Линолиум</li>
+						<li class="configuration__item">Отделка пола в с/у: Плитка</li>
+						<li class="configuration__item">Отделка стен: Водоэмульсионная краска</li>
+					</ul>
 				</li>
-				<li class="configuration__list">
-					<ul class="configuration__item">Дверь входная: Стальная</ul>
-					<ul class="configuration__item">Двериж межкомнатные: Деревянные</ul>
-					<ul class="configuration__item">Окна: ПВХ</ul>
-					<ul class="configuration__item">Отделка стен в с/у: Частично плитка керамическая</ul>
-					<ul class="configuration__item">Отделка потолков: Водоэмульсионная краска</ul>
+				<li>
+					<ul class="configuration__list">
+						<li class="configuration__item">Дверь входная: Стальная</li>
+						<li class="configuration__item">Двериж межкомнатные: Деревянные</li>
+						<li class="configuration__item">Окна: ПВХ</li>
+						<li class="configuration__item">Отделка стен в с/у: плитка керамическая</li>
+						<li class="configuration__item">Отделка потолков: Водоэмульсионная краска</li>
+					</ul>
 				</li>
 			</ul>
 		</div>
@@ -318,57 +337,74 @@
 
 	<section id="papers">
 		<div class="container">
-			<h2>Документация</h2>
-			<span class="documentation__desc">
-				Обеспечивающие надёжность и Вашу защиту
-			</span>
-			<ul class="documentation__list">
-				<li class="documentation__item">
-					<img src="#" alt="Ведомость">
-				</li>
-				<li class="documentation__item">
-					<img src="#" alt="Лицензия">
-				</li>
-				<li class="documentation__item">
-					<img src="#" alt="Договор">
-				</li>
-				<li class="documentation__item">
-					<img src="#" alt="Свидетельство">
-				</li>
-			</ul>
+			<div class="row">
+				<div class="col">
+					<h2>Документация</h2>
+					<span class="documentation__desc">
+						Обеспечивающие надёжность и Вашу защиту
+					</span>
+					<ul class="documentation__list">
+						<li class="documentation__item">
+							<img src="img/doc1.png" alt="Ведомость">
+						</li>
+						<li class="documentation__item">
+							<img src="img/doc2.png" alt="Лицензия">
+						</li>
+						<li class="documentation__item">
+							<img src="img/doc3.png" alt="Договор">
+						</li>
+						<li class="documentation__item">
+							<img src="img/doc4.png" alt="Свидетельство">
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</section>
 	
 	<footer>
-		<div class="container">
-
-			<div class="logo">
-				<img src="img/logo.png" alt="Жилой дом - Ярославская область">
-				<span class="logo__name">Жилой дом</span>
-				<span class="logo__dest">Ярославская область</span>
-			</div>
-			<div class="credits">
-				2015 все права защищены
-			</div>
-
-			<a href="#" class="privacy">Политика конфиденциальности</a>
-			<div class="address">
-				<span class="address__type">
-					Адреc офиса:
-				</span>
-				Ярославская область 
-				р-н Заволжский, ул.3-я Тверицкаяд.32
-			</div>
-
-			<div class="call-us">
-				<span class="call-us__phone">
-					+7 (495) 544-23-12
-				</span>
-				<div class="call-us__btn">
-					Заказать звонок
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-3">
+					<div class="logo">
+						<span class="logo__name">Жилой дом</span><br>
+						<span class="logo__dest">Ярославская область</span>
+					</div>
 				</div>
+				<div class="col-xl-3">
+					<div class="credits">
+						2015 все права защищены
+					</div>
+					<a href="#" class="privacy">Политика конфиденциальности</a>
+				</div>
+				<div class="col-xl-4">
+					<div class="address">
+						<span class="address__bold">
+							Адреc офиса:
+						</span><br>
+						<span class="address__light">
+							Ярославская область<br> 
+							р-н Заволжский, ул.3-я Тверицкаяд.32
+						</span><br>
+						<span class="address__bold">
+							E-mail:
+						</span>
+						<span class="address__light">
+							info@sitename.ru
+						</span>
+					</div>
+				</div>
+				<div class="col-xl-2">
+					<div class="call-us call-us_footer">
+						<span class="call-us__phone">
+							+7 (495) 544-23-12
+						</span>
+						<div class="call-us__btn call-us__btn_light">
+							Заказать звонок
+						</div>
+					</div>
+				</div>	
 			</div>
-			
 		</div>	
 	</footer>
 
