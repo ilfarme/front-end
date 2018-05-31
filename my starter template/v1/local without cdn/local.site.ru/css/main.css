@@ -32,6 +32,11 @@ button, button:active, button:focus {
 	outline: none;
 }
 
+/* Делаем высоту заголовка равной высоте символов */
+h1 {
+	line-height: 0.75em;
+}
+
 /* Обнуление стилей кнопок */
 button {
 	background: none;

@@ -23,6 +23,10 @@
     height: 250px;
     overflow: hidden;
   }
+  .mini-profile__desc {
+    width: 65%;
+    padding-top: 21px;
+  }
 }
 
 @media screen and (max-width:830px) {
@@ -35,7 +39,13 @@
   }
   .mini-profile {
     padding-top: 20px;
-    padding-left: 20%;
+  }
+  .merit__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact__list {
+    flex-direction: column;
   }
 }
 
@@ -53,12 +63,16 @@
   .contact, .block {
     width: 100%;
   }
+  .contact .block {
+    flex-direction: row;
+    justify-content: space-around;
+  }
   .contact__list {
     padding-right: 0;
     justify-content: space-around;
   }
   .mini-profile {
-    padding-left: 0;
+    padding: 0;
     align-self: center;
   }
   .skills__list {
@@ -87,11 +101,10 @@
   }
   .skills__list {
     flex-wrap: wrap;
-    justify-content: baseline;
+    justify-content: space-between;
   }
 
   .skills__item {
-    margin-left: 30%;
     padding: 20px 0;
   }
 
@@ -110,12 +123,27 @@
     margin: 0 auto;
     text-align: center;
   }
+  .arrow-down {
+    margin-top: 150px;
+  }
 }
 
 @media screen and (max-width:500px) {
   .contact__list {
     flex-direction: column;
     align-self: center;
+  }
+  .skills__list {
+    justify-content: space-around;
+  }
+  .skills__item:nth-child(4) {
+    display: flex;
+  }
+  .mini-profile {
+    padding-left: 25px;
+  }
+  header {
+    margin-top: 125px;
   }
 }
 
@@ -125,6 +153,23 @@
   }
   .merit__item {
     padding: 30px 0;
+    margin-left: 0;
+  }я
+  header {
+    margin-top: 55px;
   }
-}
+  .arrow-down {
+    margin-top: 50px;
+  }
+  .contact .block {
+    flex-direction: column;
+  }
+  .contact__list {
+    padding-bottom: 20px;
+  }
+  .skills__list {
+    padding-left: 30px;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
