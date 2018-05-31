@@ -1,0 +1,65 @@
+/* ТИПОГРАФИКА */
+
+/* Задание шрифта для всего сайта */
+body {
+	font-family: sans-serif;
+}
+
+/* Задание шрифта для абзацев */
+p {
+	font-size: 16px;
+}
+
+/* Общие свойства всех заголовков */
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 16px; 
+}
+
+h6 {
+	font-size: 16px;
+}
+
+/* Стили ссылок */
+a { 
+	color: #fff;
+}
+
+/* Стили ссылок при наведении */
+a:hover {
+	color: #000;
+}
+
+/* Кастомная кнопка на основе ссылки
+   Переименовать при необходимости */
+.my-btn {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #fff;
+	background: #6d6b64;
+	padding: 1.5em 2em 1.5em 2em;
+	border-radius: 0.5rem;
+}
